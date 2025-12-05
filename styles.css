@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #0d0d0d;
+    color: #fff;
+    background-image:url('assets/portfolio-blue.jpg');
+
+}
+
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    z-index: 100;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar a {
+    margin-left: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.navbar a:hover {
+    color: #00aeff;
+}
+
+.home {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.home h1 {
+    font-size: 60px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.home span {
+    color: #00aeff;
+}
+
+.home p{
+    font-size:20px;
+}
+
+.about, .resume, .contact {
+    padding: 80px 10%;
+}
+
+.title {
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.about p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 12px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+}
+
+.contact-form button {
+    background: #00aeff;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background: #0086c7;
+}
+
+.footer {
+    background: #050505;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+.myphoto{
+    height: 550px;
+    width: 550px;
+    border-radius: 50%;
+    border:2px solid black;
+    background-image: url('assets/photo.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 30px;
+    margin-left:450px;
+    box-shadow:10px 10px 50px rgb(59, 121, 213);
+    
+}
+.home-content{
+    padding-left: 400px;
+}
