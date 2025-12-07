@@ -8,7 +8,7 @@
 body {
     background: #0d0d0d;
     color: #fff;
-    background-image:url('assets/portfolio-blue.jpg');
+    background-image: url('assets/portfolio-blue.jpg');
 
 }
 
@@ -53,19 +53,21 @@ body {
 }
 
 .home h1 {
-    font-size: 60px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .home span {
     color: #00aeff;
 }
 
-.home p{
-    font-size:20px;
+.home p {
+    font-size: 20px;
 }
 
-.about, .resume, .contact {
+.about,
+.resume,
+.contact {
     padding: 80px 10%;
 }
 
@@ -116,20 +118,77 @@ body {
     padding: 20px;
     margin-top: 50px;
 }
-.myphoto{
-    height: 550px;
-    width: 550px;
+
+.myphoto {
+    height: 450px;
+    width: 450px;
     border-radius: 50%;
-    border:2px solid black;
+    border: 2px solid black;
     background-image: url('assets/photo.jpeg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 30px;
-    margin-left:450px;
-    box-shadow:10px 10px 50px rgb(59, 121, 213);
-    
+    margin-left: 450px;
+    box-shadow: 10px 10px 50px rgb(59, 121, 213);
+
 }
-.home-content{
-    padding-left: 400px;
+
+
+.home-content {
+    padding-left: 100px;
+}
+
+.find-me {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.find-me h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.find-me-icons {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 10px;
+}
+
+.find-me-icons img {
+    width: 45px;
+    height: 45px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.find-me-icons img:hover {
+    transform: scale(1.15);
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.3);
+}
+
+.res {
+    height:30px;
+    width:200px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 12px 25px;
+    background: #00aeff;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.res:hover {
+    background: #0086c7;
+    transform: translateY(-3px);
 }
